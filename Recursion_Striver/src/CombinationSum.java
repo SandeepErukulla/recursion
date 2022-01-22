@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
-
+//problem link: https://leetcode.com/problems/combination-sum/
+//YouTube link: https://youtu.be/OyZFFqQtu98
 public class CombinationSum {
 
     public static void main(String[] args) {
@@ -9,6 +10,10 @@ public class CombinationSum {
         combinationSumK(0,arr,7,0,list);
     }
 
+/*    Time complexity: O(2^t * k)
+    Space Complexity:  K*X
+    k -> average length
+     x -> no. of combinations*/
     public static void combinationSumK(int index, int[] arr, int k, int sum, List<Integer> list) {
         if(index==arr.length) {
             if(sum==k) {
