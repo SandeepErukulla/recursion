@@ -3,7 +3,13 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+// Problem link: https://practice.geeksforgeeks.org/problems/subset-sums2234/1
+//YouTube link: https://youtu.be/rYkfBRtMJr8
+
 public class SubsetSuminIncreasingOrder {
+
+/*     Time Complexity: O(2^n + 2^nlog(2^n)
+    Space Complexity: O(2^n)*/
 
     public static void main(String[] args) {
         int[] arr = new int[]{5,2,1};

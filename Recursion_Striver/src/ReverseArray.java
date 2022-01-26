@@ -18,6 +18,8 @@ public class ReverseArray {
         reverseArray(l+1,r-1,arr);
     }
 
+    //Time Complexity: O(N/2)
+    //internal stack space: O(N/2)
     private static void reverseArray2(int l, int[] arr) {
         if(l>=arr.length/2) return;
         int temp=arr[l];

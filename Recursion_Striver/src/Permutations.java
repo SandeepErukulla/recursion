@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+Problem link: https://leetcode.com/problems/permutations/
+YouTube link: https://youtu.be/YK78FU5Ffjw
+YouTube link: https://youtu.be/f2ic2Rsc9pU
+*/
+
 public class Permutations {
 
     public static void main(String[] args) {

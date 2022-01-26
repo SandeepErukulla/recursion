@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//problem link: https://leetcode.com/problems/combination-sum-ii/
+//YouTube link: https://youtu.be/G1fRTGRxXU8
+
 public class CombinationsumII {
 
     public static void main(String[] args) {
@@ -13,6 +16,11 @@ public class CombinationsumII {
         }
 
     }
+
+    /*    Time complexity: O(2^n * k)
+    Space Complexity:  K*X
+    k -> average length
+     x -> no. of combinations*/
 
     public static List<List<Integer>> combinationSum2(int[] arr, int target) {
         List<List<Integer>> ans = new ArrayList<>();

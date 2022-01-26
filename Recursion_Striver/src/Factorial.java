@@ -3,6 +3,9 @@ public class Factorial {
         System.out.println(factorialFunctionalRecursion(5));
         factorialParametrisedRecursion(1,5);
     }
+
+    //Time Complexity: O(N)
+    //Space Complexity: O(N)
     private static int factorialFunctionalRecursion(int n) {
         if(n<2) return 1;
         return n*factorialFunctionalRecursion(n-1);

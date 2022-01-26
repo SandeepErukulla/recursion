@@ -1,5 +1,8 @@
 import java.util.*;
 
+// Problem link: https://leetcode.com/problems/subsets-ii/
+//YouTube link: https://youtu.be/RIn3gOkbhQE
+
 public class SubSetSumII {
 
     public static void main(String[] args) {
@@ -34,6 +37,9 @@ public class SubSetSumII {
         return ansList;
 
     }
+
+/*    Time Complexity: O(2^n * n)
+        Space COmplexity: O(2^n) * O(k) */
 
     public static void findnumsUsingRecursion(int index, int[] nums,List<List<Integer>> ansList, List<Integer> ds ) {
         ansList.add(new ArrayList<>(ds));
